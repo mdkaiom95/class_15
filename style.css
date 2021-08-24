@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.fixed-width {
+    width: 1270px;
+    margin: auto;
+}
+/* header section */
+.header{
+    background-color: #22c3a3;
+}
+.header-left{
+    float: left;
+    width: 20%;
+    margin-top: 14px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.l-logo{
+
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 23px;
+    line-height: 60px;
+    transition: .4s;
+    font-family: sans-serif;
+}
+.header-right ul li a:hover{
+    background: #018f72;
+}
+/* banner-section */
+.banner{
+    background: url(https://i.ibb.co/2dy9PXm/header-bg01.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.banner-caption h1 {
+    color: #fff;
+    max-width: 570px;
+    margin: auto;
+    margin-top: auto;
+    font-size: 57px;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.banner-caption p {
+    color: #fff;
+    padding: 14px 0px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.l-m {
+    padding: 9px 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 3px;
+}
+/* icons */
+.service{
+    background-color: white;
+    border-bottom: 4px solid #0dbf9b;
+    height: 300px;
+}
+.s-1 {
+    height: 300px;
+}
+.service h1{
+    padding-top: 103px;
+    padding-bottom: 24px;
+    color: #555555;
+}
+.service p{
+    font-family: sans-serif;
+    color: #808080;
+    padding-top: 6px;
+}
+.service-item {
+	width: 20%;
+	float: left;
+	padding: 21px 0px;
+	box-sizing: border-box;
+	margin-left: 3%;
+	margin-right: 2%;
+}
+.service-item span {
+    color: #0dbf9b;
+    margin: auto;
+    font-size: 35px;
+}
+.service-item h3 {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #555555;
+    font-family: sans-serif;
+}
+.about{
+
+    height: 163px;
+}
+.about h1{
+    font-size: 20px;
+    margin: 44px 0px;
+    color: #555555;
+    font-size: 38px;
+}
+.about p{
+    font-family: sans-serif;
+    color: #808080;
+}
+/* blog content */
+.blog-container{
+    height: 363px;
+}
+.blog-left-content{
+    float: left;
+    width: 40%;
+}
+.blog-item{
+    margin-bottom: 30px;
+}
+.blog-item img{
+    float: left;
+    width: 487px;
+    height: auto;
+    margin-left: 10px;
+}
+.blog-right-content{
+    padding-left: 42%;
+}
+.blog-right-content h2{
+    margin-bottom: 3px;
+    font-family: sans-serif;
+    font-weight: 30;
+    color: #a2a2a2;
+}
+.blog-right-content p{
+    margin-bottom: 36px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #a2a2a2;
+}
+/* support itms */
+.c-u{
+    background-color: #f6f6f6;
+}
+.f-content h2{
+    color: #555555;
+    margin-bottom: 23px;
+    padding-top: 52px;
+}
+.f-content p{
+    font-family: sans-serif;
+    color: #797979;
+    padding-bottom: 66px;
+}
+.c-item{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #797979;
+}
+.contact-item {
+	width: 28%;
+	float: left;
+	padding: 21px 0px;
+	box-sizing: border-box;
+	margin-left: 3%;
+	margin-right: 2%;
+}
+.contact-item span {
+    color: #0dbf9b;
+    margin: auto;
+    font-size: 26px;
+}
+.contact-item p{
+    margin-top: 5px;
+}
+/* footer icons */
+.f-color{
+    background-color: #0dbf9b;
+}
+.f-icons ul{
+     display: inline-block;
+     list-style: none;
+     padding: 4px 1px;
+}
+.f-icons ul li{
+    display: inline-block;
+    padding: 13px;
+    color: white;
+    font-size: 20px;
+}
+.f-color-b{
+    background-color: #222222;
+    padding: 10px;
+    color: #505050;
+    font-family: sans-serif;
+}
